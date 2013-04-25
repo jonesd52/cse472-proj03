@@ -1,0 +1,28 @@
+<-> Window Class Registered
+<-> Window Created.
+<-> DC Created
+<-> Pixel Format Found.
+<-> Pixel Format set.
+<-> GL Rendering Context Created.
+<-> GL Rendering Context Activated.
+
+<-> Window Size: (640, 480)
+<-> Color Buffer Bits (R, G, B, A): (8, 8, 8, 8)
+<-> Depth Buffer Bits: 24
+<-> Stencil Buffer Bits: 8
+
+<-> Window Created!
+
+<-> Font created successfully.
+<-> EXT_compiled_vertex_array supported!
+<-> EXT_texture_edge_clamp supported!
+<!> NV_vertex_program unsupported!
+<-> Demo Initiation Successful
+<-> OpenGL Initiation Successful
+
+<-> DC and RC released.
+<-> Rendering Context Released.
+<-> Device Context Released.
+<-> hWnd released.
+<-> Class unregistered.
+<-> Exiting...

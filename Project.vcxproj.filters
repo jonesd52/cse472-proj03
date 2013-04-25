@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b94ac490-f6e8-4940-9eb2-b4d3d27e8d4c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8425428a-eecc-48fa-bc50-3516e182656f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{f4443e00-7a09-4f4f-b8e7-349093433d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths\Maths Source">
+      <UniqueIdentifier>{85e7cb75-29a3-4e8c-af8b-228800b4cefe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maths\Maths Headers">
+      <UniqueIdentifier>{e364a30c-adc8-4861-b4c1-fdbff172d4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extensions">
+      <UniqueIdentifier>{96910110-6d02-442d-bd85-b8f7ae671ee7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FPS_COUNTER.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LOG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NV_vertex_program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TIMER.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TORUS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WINDOW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\COLOR.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\MATRIX4X4.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\PLANE.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR2D.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR3D.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths\VECTOR4D.cpp">
+      <Filter>Maths\Maths Source</Filter>
+    </ClCompile>
+    <ClCompile Include="extensions\EXT_compiled_vertex_array_extension.cpp">
+      <Filter>extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="extensions\EXT_texture_edge_clamp_extension.cpp">
+      <Filter>extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="extensions\NV_vertex_program_extension.cpp">
+      <Filter>extensions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FPS_COUNTER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LOG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NV_vertex_program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TIMER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TORUS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WINDOW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\Maths.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\COLOR.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\MATRIX4X4.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\PLANE.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR2D.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR3D.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\VECTOR4D.h">
+      <Filter>Maths\Maths Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\EXT_compiled_vertex_array_extension.h">
+      <Filter>extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\EXT_texture_edge_clamp_extension.h">
+      <Filter>extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions\NV_vertex_program_extension.h">
+      <Filter>extensions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex program.txt" />
+  </ItemGroup>
+</Project>
